@@ -1,0 +1,184 @@
+@media only screen and (min-width: 990px) {
+    .container {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .textContainer.inside {
+        margin-left: 10px;
+        margin-top: 12px;
+        font-size: 28px;
+	line-height: 44px;
+
+    }
+    .textContainer.inside .textBlock {
+        width: 500px;
+        text-align: left;
+    }
+
+    .socialLinks .fa {
+        font-size: 65px;
+    }
+
+    .socialLinks a {
+        margin-right: 32px;
+    }
+
+    .link {
+        width: 55px;
+    }
+
+    .linkCV {
+        font-size: 30px;
+        padding-top: 9px;
+        height: 46px;
+	line-height: normal;
+    }
+
+    .linkMT {
+        font-size: 12px;
+        padding-top: 11px;
+        height: 44px;
+	line-height: normal;
+    }
+
+    .spacer {
+        height: 26px;
+    }
+
+    .pictureCaption {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    .container {
+        margin-left: calc(50% - 438px);
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .textContainer {
+        margin-top: -30px;
+        margin-left: 21px;
+        font-size: 23px;
+    }
+
+    .textContainer .textBlock {
+        width: 326px;
+        text-align: justify;
+    }
+
+    .socialLinks .fa {
+        font-size: 43px;
+    }
+
+    .socialLinks a {
+        margin-right: 20px;
+    }
+
+    .link {
+        width: 37px;
+    }
+
+    .linkCV {
+        font-size: 16px;
+        padding-top: 8px;
+        height: 29px;
+    }
+
+    .linkMT {
+        font-size: 8px;
+        padding-top: 8px;
+        height: 29px;
+    }
+
+    .spacer {
+        height: 20px;
+    }
+
+
+    .pictureCaption {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    .container {
+        margin-left: calc(50% - 182px);
+    }
+}
+
+
+.spacerBottom {
+    height: 20px;
+}
+
+.picture {
+    margin: 18px;
+    border-color: #CFC4B2;
+    border-width: 2px;
+    border-style: solid;
+    padding: 1px;
+    width: 320px;
+}
+
+.pictureContainer {
+    width: 365px;
+}
+
+.pictureCaption {
+    text-align: center;
+}
+
+.container {
+    font-family: 'Abel', 'Helvetica', sans-serif;
+}
+
+.socialLinks {
+    display: flex;
+    padding-top: 20px
+    padding-bottom: 20px;
+}
+
+.socialLinks a {
+    color: #CFC4B2;
+    text-decoration: none;
+}
+
+.socialLinks a:hover {
+    color: var(--icon-hover-color);
+}
+
+.socialLinks a.link{
+    color: white;
+}
+
+.link {
+    background: #CFC4B2;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.link:hover {
+    background: var(--icon-hover-color);
+}
+
+.textBlock a {
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+.textBlock a:hover {
+    color: var(--icon-hover-color);
+}
+
+.pictureCaption a {
+    text-decoration: none;
+    color: black;
+}
+
+.pictureCaption a:hover {
+    color: var(--icon-hover-color);
+}
